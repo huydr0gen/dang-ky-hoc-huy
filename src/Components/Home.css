@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 200px;
+    background: #fff;
+    padding-bottom: 30px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    font-size: 72px;
+  background: -webkit-linear-gradient( #050C56,#F3240A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.underline{
+    width: 71px;
+    height: 6px;
+    background: linear-gradient(to right,#F3240A,#050C56);
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+.login{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 59px;   
+    color: #fff;
+    background-color: #F3240A;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.login:hover{
+    opacity: 1;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.message.success {
+    color: #4caf50;  /* Màu xanh lá khi thành công */
+}
+
+.message.error {
+    color: #f44336;  /* Màu đỏ khi có lỗi */
+}
+
+.message.info {
+    color: #2196F3;  /* Màu xanh dương cho thông báo thông tin */
+}
+
+.message {
+    padding: 10px 20px;
+    background-color: #f1f1f1;  /* Nền màu sáng */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Tạo bóng nhẹ cho thông báo */
+    width: 80%;  /* Chiếm 80% chiều rộng */
+    max-width: 500px; /* Giới hạn chiều rộng tối đa */
+    margin: 20px auto;  /* Căn giữa thông báo */
+}
